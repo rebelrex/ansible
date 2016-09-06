@@ -1,0 +1,7 @@
+---
+- hosts: ceph
+  remote_user: root
+  tasks:
+    - name: 1
+      shell: touch /root/2
+
